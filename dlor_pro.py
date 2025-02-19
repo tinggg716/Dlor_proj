@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-with open("classifier.pkl", "rb") as model_file:
+with open("C:\Users\omori\Documents\GitHub\Dlor_proj\DLOR_part_2_github.ipynb", "rb") as model_file:
     model = pickle.load(model_file)
 
 st.title("sea creature")
